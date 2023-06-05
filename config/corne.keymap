@@ -21,6 +21,16 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
+
+        rightbrace {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <33 34>;
+        };
+
+        leftbrace {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <33 32>;
+        };
     };
 
     keymap {
