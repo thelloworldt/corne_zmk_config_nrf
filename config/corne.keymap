@@ -59,9 +59,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE        &kp HOME  &kp PAGE_DOWN   &kp PAGE_UP          &kp END      &trans          &kp N6    &kp DELETE  &kp PRINTSCREEN            &kp N9             &kp N0  &kp MINUS
+&kp ESCAPE        &kp HOME  &kp PAGE_DOWN   &kp PAGE_UP          &kp END      &trans          &trans    &kp DELETE  &kp PRINTSCREEN            &trans             &trans  &kp MINUS
     &trans  &kp LEFT_ARROW       &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW      &trans        &kp LEFT      &kp DOWN           &kp UP         &kp RIGHT             &trans     &trans
- &kp LSHFT          &trans         &trans        &trans           &trans  &kp C_PLAY    &kp C_VOL_DN  &kp C_VOL_UP       &kp C_MUTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &trans
+    &trans          &trans         &trans        &trans           &trans  &kp C_PLAY    &kp C_VOL_DN  &kp C_VOL_UP       &kp C_MUTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &trans
                                                  &trans           &trans      &trans          &trans        &trans           &trans
             >;
         };
