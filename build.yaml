@@ -15,20 +15,16 @@
 include:
   - board: nrfmicro_13
     shield: corne_left
+    artifact-name: corne_qwerty_left_nrf
   - board: nrfmicro_13
     shield: corne_right
-include:
-  - board: nrfmicro_13
+    artifact-name: corne_qwerty_right_nrf
+
+  - board: nice_nano_v2
     shield: corne_left
-  - board: nrfmicro_13
+    artifact-name: corne_qwerty_left_nicenano
+  - board: nice_nano_v2
     shield: corne_right
-include:
-  - board: nrfmicro_13
-    shield: corne_left
-  - board: nrfmicro_13
-    shield: corne_right
-include:
-  - board: nrfmicro_13
-    shield: corne_left
-  - board: nrfmicro_13
-    shield: corne_right
+    artifact-name: corne_qwerty_right_nicenano
+
+
