@@ -16,6 +16,8 @@ include:
   - board: nrfmicro_13
     shield: corne_left
     artifact-name: corne_qwerty_left_nrf
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nrfmicro_13
     shield: corne_right
     artifact-name: corne_qwerty_right_nrf
@@ -23,6 +25,8 @@ include:
   - board: nice_nano_v2
     shield: corne_left
     artifact-name: corne_qwerty_left_nicenano
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano_v2
     shield: corne_right
     artifact-name: corne_qwerty_right_nicenano
